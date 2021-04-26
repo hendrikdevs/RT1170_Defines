@@ -5,7 +5,7 @@
  * @brief The CAN Message with priority, sleep time and a text.
  * 
  */
-struct message {
+struct Message {
     unsigned int priority;
     unsigned int sleep_in_ms;
     char[10] text;
