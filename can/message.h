@@ -12,4 +12,13 @@ struct Message
     char text[10];
 };
 
+typedef struct Message message_t;
+
+union Serialized_Message {
+    message_t message;
+    char buffer[sizeof(struct Message)];
+};
+
+typedef union Serialized_Message serialized_message_t;
+
 #endif /* CAN_MESSAGE_H */
