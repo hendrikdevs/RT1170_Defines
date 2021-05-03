@@ -1,5 +1,5 @@
-#ifndef CAN_MESSAGE_H
-#define CAN_MESSAGE_H
+#ifndef MESSAGE_H
+#define MESSAGE_H
 
 /**
  * @brief The CAN Message with priority, sleep time and a text.
@@ -21,4 +21,4 @@ union Serialized_Message {
 
 typedef union Serialized_Message serialized_message_t;
 
-#endif /* CAN_MESSAGE_H */
+#endif /* MESSAGE_H */
