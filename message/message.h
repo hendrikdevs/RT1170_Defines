@@ -1,8 +1,10 @@
 #ifndef MESSAGE_H
 #define MESSAGE_H
 
+#define MESSAGE_MAX_SLEEP 5000
+
 /**
- * @brief The CAN Message with priority, sleep time and a text.
+ * @brief The Message with priority, sleep time and a text.
  * 
  */
 struct Message 
